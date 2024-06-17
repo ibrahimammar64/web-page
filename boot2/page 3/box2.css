@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+       
+  }
+   
+  .p{
+   position: relative;
+   left:5%; ;
+  }
+  .q{
+   position: relative;
+   left: 11%; 
+   top:11px;
+   font-size: medium;
+   
+  }
+  
+    
+  .q:hover{
+    color:blue;
+  }
+    
+  
+  
+  a:hover{
+    text-decoration: none;
+    
+  }
+  a[class="img"]:hover{
+    width: 370;
+    height: 300;
+  }
+  
+  nav{
+      background-color:white;
+    
+    width: 100;
+    min-width: 200px;
+    height: 13vh;
+    display: flex;
+    align-items:center;
+    }
+    .w:hover{
+      text-decoration: underline;
+    }
+    
+    nav a {
+    
+      text-decoration:none;
+      font-size: 12px ;
+      font-family: sans-serif;
+      color:black;
+      margin: 15px ;
+  
+      
+    }
+    .x{
+      color: black;
+    }
+    .x:hover{
+      text-decoration: underline;
+      color: black;
+    }
+    .bl{
+      background-color:rgba(11, 79, 249, 0.856);
+    
+      width: 100;
+      min-width: 200px;
+      height: 8vh;
+      display: flex;
+      align-items:center;
+    }
+    .mm{
+      background-color:rgb(240, 237, 237);
+    
+      width: 100;
+      min-width: 200px;
+      height: 11vh;
+      display: flex;
+      align-items:center;
+    }
+    .y:hover{
+      text-decoration: underline;
+      color: blue;
+    }
+    .img-responsive:hover{
+  
+      transform: scale(1.3);
+    }
+  
+    .menu-item{
+      color: rgba(255, 255, 255, 0.73);
+  
+    }
+    .menu-item:hover{
+  
+      color: white;
+    }
+    ul{
+      list-style-type: none;
+    }
+    
+    .ahm::before {
+     content: ' \2713';
+      color:rgb(114, 201, 114);
+      font-size: larger;
+    }

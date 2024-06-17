@@ -1,0 +1,85 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+    
+.q{
+    position: relative;
+    left: 17%; ;
+}
+.t{
+    position: relative;
+    left: 83%; ;
+    color:  rgb(95, 65, 132);
+    
+}
+.q:hover{
+    color:  rgb(95, 65, 132);
+    background-color: hsl(0, 0%, 98%)  ; height: 70%; width: 80px;
+    text-decoration: none;
+    
+
+}
+
+
+
+nav{
+    background-color: white;
+width: 100;
+min-width: 200px;
+height: 7vh;
+display: flex;
+align-items:center;
+
+}
+
+nav a {
+ 
+    text-decoration: none;
+    font-size: 14px ;
+    font-family: sans-serif;
+    color: rgb(104, 68, 138); 
+    margin-left: 20px;
+    
+
+}
+
+.button{
+    position: relative;
+    right: 6%;
+    background-color: rgb(104, 68, 138);
+color: aliceblue;
+width: 11%;
+height: 40px;
+cursor: grab;
+
+
+}
+
+.tt{
+
+    position: relative;
+    left: 50% ;
+    background-color: rgb(104, 68, 138);
+color: rgb(157, 166, 174);
+
+
+}
+.tt:hover{
+    background-color: rgb(104, 68, 138);
+    color: aliceblue;
+    text-decoration: none;
+}
+.buttoon{
+   text-align: center;
+}
+.emaial{
+    padding-left: 30%;
+    margin-left: 80 ;
+}
+.button{
+    text-align: center;
+    box-shadow: 20%;
+    border-radius: 25%;
+}
